@@ -155,7 +155,7 @@
 		"statusBarItem.prominentHoverBackground": "#FFB86C",
 		"statusBarItem.remoteForeground": "#FEFEFE",
 		"statusBarItem.remoteBackground": "#93f9b1",
-		"titleBar.activeBackground": "#21222C",
+		"titleBar.activeBackground": "#121A25",
 		"titleBar.activeForeground": "#FEFEFE",
 		"titleBar.inactiveBackground": "#191A21",
 		"titleBar.inactiveForeground": "#808080",
@@ -251,12 +251,23 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#51C686"
+				"foreground": "#91e0b5"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#BB86FC"
 			}
 		},
 		{
@@ -280,7 +291,6 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -289,9 +299,7 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
-				"keyword.other.template",
-				"keyword.other.substitution"
+				"punctuation.section.embedded"
 			],
 			"settings": {
 				"foreground": "#51C686"
@@ -368,7 +376,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#f77981"
+				"foreground": "#CB8666"
 			}
 		},
 		{
@@ -384,7 +392,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#CB8666",
+				"foreground": "#f77981",
 				"fontStyle": "bold"
 			}
 		},
@@ -429,7 +437,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#51C686"
+				"foreground": "#51d18a"
 			}
 		},
 		{
