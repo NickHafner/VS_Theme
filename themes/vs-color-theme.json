@@ -227,7 +227,7 @@
 				"variable.other.constant.tsx"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#16adca"
 			}
 		},
 		{
@@ -274,7 +274,7 @@
 				"source.dart",
 			],
 			"settings": {
-				"foreground": "#f4c7fa"
+				"foreground": "#ffffffe7"
 			}
 		},
 		{
@@ -368,7 +368,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#E54550"
+				"foreground": "#f77981"
 			}
 		},
 		{
