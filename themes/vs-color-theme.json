@@ -251,23 +251,16 @@
 		{
 			"name": "Keyword, Storage",
 			"scope": [
+				"keyword",
+				"keyword.control",
+				"keyword.other.template",
+				"variable.language.dart",
+				"keyword.other.substitution",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#f0962f"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": [
-				"keyword",
-				"keyword.control",
-				"keyword.other.template",
-				"keyword.other.substitution"
-			],
-			"settings": {
-				"foreground": "#BB86FC"
 			}
 		},
 		{
@@ -429,7 +422,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#f77981",
+				"foreground": "#82AAFF",
 				"fontStyle": "bold"
 			}
 		},
