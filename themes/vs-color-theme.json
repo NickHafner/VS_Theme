@@ -302,7 +302,7 @@
 				"punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#51C686"
+				"foreground": "#ffffffe7"
 			}
 		},
 		{
@@ -376,7 +376,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#CB8666"
+				"foreground": "#f09f7a"
 			}
 		},
 		{
