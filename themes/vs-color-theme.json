@@ -285,7 +285,6 @@
 			"name": "Operator, Misc",
 			"scope": [
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -310,6 +309,29 @@
 			}
 		},
 		{
+			"name": "JS Misc",
+			"scope": [
+				"meta.definition.variable.js",
+				"meta.var-single-variable.expr.js",
+				"variable.other.constant.js",
+				"variable.other.property.js"
+			],
+			"settings": {
+				"foreground": "#9198B4"
+			}
+		},
+		{
+			"name": "JS Vars",
+			"scope": [
+				"variable.other.readwrite.js",
+				"variable.other.constant.js meta.definition.variable.js meta.array-binding-pattern-variable.js meta.var.expr.js meta.block.js meta.function.js",
+				"entity.name.function.js"
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
 			"name": "Yaml Tag",
 			"scope": [
 				"entity.name.tag.yaml"
@@ -321,7 +343,9 @@
 		{
 			"name": "Yaml Tag",
 			"scope": [
-				"string.quoted.double.yaml",
+				"string.quoted.double",
+				"punctuation",
+				"string.quoted.single",
 				"source.yaml"
 			],
 			"settings": {
@@ -340,7 +364,7 @@
 		{
 			"name": "Yaml Tag",
 			"scope": [
-				"constant.language.boolean.yaml"
+				"constant.language.boolean"
 			],
 			"settings": {
 				"foreground": "#e0545d"
@@ -416,6 +440,7 @@
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
+				"entity.name.tag.js",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
