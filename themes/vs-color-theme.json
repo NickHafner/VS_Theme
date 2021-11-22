@@ -276,6 +276,7 @@
 			"name": "Dart Text",
 			"scope": [
 				"source.dart",
+				"meta.object-literal.key.js"
 			],
 			"settings": {
 				"foreground": "#91e0b5"
@@ -309,22 +310,9 @@
 			}
 		},
 		{
-			"name": "JS Misc",
-			"scope": [
-				"meta.definition.variable.js",
-				"meta.var-single-variable.expr.js",
-				"variable.other.constant.js",
-				"variable.other.property.js"
-			],
-			"settings": {
-				"foreground": "#9198B4"
-			}
-		},
-		{
 			"name": "JS Vars",
 			"scope": [
-				"variable.other.readwrite.js",
-				"variable.other.constant.js meta.definition.variable.js meta.array-binding-pattern-variable.js meta.var.expr.js meta.block.js meta.function.js",
+				"entity.name.function.graphql",
 				"entity.name.function.js"
 			],
 			"settings": {
@@ -454,6 +442,7 @@
 		{
 			"name": "Entity Types",
 			"scope": [
+				"keyword.operation.graphql",
 				"support.type"
 			],
 			"settings": {
