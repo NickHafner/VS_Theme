@@ -216,27 +216,12 @@
 			}
 		},
 		{
-			"name": "Variables and object properties",
-			"scope": [
-				"variable",
-				"variable",
-				"constant.other.key.perl",
-				"support.variable.property",
-				"variable.other.constant.js",
-				"variable.other.constant.ts",
-				"variable.other.constant.tsx"
-			],
-			"settings": {
-				"foreground": "#16adca"
-			}
-		},
-		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#e0545d"
+				"foreground": "#a3151e"
 			}
 		},
 		{
@@ -299,27 +284,6 @@
 			}
 		},
 		{
-			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
-			],
-			"settings": {
-				"foreground": "#16ADCA"
-			}
-		},
-		{
-			"name": "JS Vars",
-			"scope": [
-				"entity.name.function.graphql",
-				"entity.name.function.js"
-			],
-			"settings": {
-				"foreground": "#FFCB6B"
-			}
-		},
-		{
 			"name": "Yaml Tag",
 			"scope": [
 				"entity.name.tag.yaml"
@@ -337,47 +301,7 @@
 				"source.yaml"
 			],
 			"settings": {
-				"foreground": "#f09f7a"
-			}
-		},
-		{
-			"name": "Yaml Tag",
-			"scope": [
-				"string.unquoted.plain.out.yaml",
-			],
-			"settings": {
-				"foreground": "#16ADCA"
-			}
-		},
-		{
-			"name": "Yaml Tag",
-			"scope": [
-				"constant.language.boolean"
-			],
-			"settings": {
-				"foreground": "#e0545d"
-			}
-		},
-		{
-			"name": "Function, Special Method",
-			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method"
-			],
-			"settings": {
-				"foreground": "#16ADCA"
-			}
-		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#FFCB9A"
 			}
 		},
 		{
@@ -391,19 +315,115 @@
 			}
 		},
 		{
+			"name": "Attributes",
+			"scope": [
+				"support.type",
+				"support.variable.property",
+				"support.other.namespace.php",
+				"support.type",
+				"constant.language.boolean",
+				"support.class",
+				"entity.other.attribute-name",
+				"constant.language",
+				"constant.character",
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#F2DF80",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Sub-methods",
+			"scope": [
+				"entity.name.module.js",
+				"variable.other.class.js",
+				"variable.import.parameter.js",
+				"meta.use.php",
+				"variable.parameter",
+				"meta.embedded.expression",
+				"variable.other.constant",
+				"support.type.sys-types",
+				"markup.changed.git_gutter",
+			],
+			"settings": {
+				"foreground": "#50fa7b"
+			}
+		},
+		{
+			"name": "Variables and object properties",
+			"scope": [
+				"variable.other.constant.js",
+				"variable.other.constant.ts",
+				"variable.other.constant.tsx",
+				"meta.tag",
+				"keyword.operation.graphql",
+			],
+			"settings": {
+				"foreground": "#50fa7b"
+			}
+		},
+		{
+			"name": "Yaml Tag",
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#ff5555"
+			}
+		},
+		{
+			"name": "JS Vars",
+			"scope": [
+				"entity.name.method",
+				"meta.class-method entity.name.function",
+				"meta.function-call",
+				"variable.function.constructor",
+				"entity.name.function.graphql",
+				"variable.paramete"
+			],
+			"settings": {
+				"foreground": "#ff5555"
+			}
+		},
+		{
+			"name": "Class, Support",
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#BBBDF2",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				"constant.numeric",
-				"constant.language",
 				"support.constant",
-				"constant.character",
+				"entity.name.tag",
 				"constant.escape",
+				"meta.object.member",
+				"variable.other.object",
+				"meta.import",
+				"meta.export.default",
+				"variable.other.object.property",
 				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#54daf5"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				"support.constant",
+				"constant.escape",
+				"support.class.component",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#f07178"
 			}
 		},
 		{
@@ -418,35 +438,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#f09f7a"
-			}
-		},
-		{
-			"name": "Class, Support",
-			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
-				"support.orther.namespace.use.php",
-				"entity.name.tag.js",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				"foreground": "#82AAFF",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
-				"keyword.operation.graphql",
-				"support.type"
-			],
-			"settings": {
-				"foreground": "#51C686"
+				"foreground": "#FFCB9A"
 			}
 		},
 		{
@@ -455,64 +447,26 @@
 				"source.css support.type.property-name",
 				"source.sass support.type.property-name",
 				"source.scss support.type.property-name",
+				"source",
 				"source.less support.type.property-name",
 				"source.stylus support.type.property-name",
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
-			}
-		},
-		{
-			"name": "Sub-methods",
-			"scope": [
-				"entity.name.module.js",
-				"variable.import.parameter.js",
-				"variable.other.class.js"
-			],
-			"settings": {
-				"foreground": "#51C686"
+				"foreground": "#54daf5"
 			}
 		},
 		{
 			"name": "Language methods",
 			"scope": [
+				"meta.jsx.children",
 				"variable.language"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#51d18a"
+				"foreground": "#ffffff"
 			}
 		},
-		{
-			"name": "entity.name.method.js",
-			"scope": [
-				"entity.name.method.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "meta.method.js",
-			"scope": [
-				"meta.class-method.js entity.name.function.js",
-				"variable.function.constructor"
-			],
-			"settings": {
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
+
 		{
 			"name": "HTML Attributes",
 			"scope": [
@@ -566,7 +520,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#54daf5"
 			}
 		},
 		{
@@ -625,7 +579,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#54daf5"
 			}
 		},
 		{
@@ -688,7 +642,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#54daf5"
 			}
 		},
 		{
@@ -716,7 +670,7 @@
 				"text.html.markdown markup.inline.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#54daf5"
 			}
 		},
 		{
@@ -818,7 +772,7 @@
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#54daf5"
 			}
 		},
 		{
@@ -836,7 +790,7 @@
 				"markup.raw.block"
 			],
 			"settings": {
-				"foreground": "#16ADCA"
+				"foreground": "#54daf5"
 			}
 		},
 		{
